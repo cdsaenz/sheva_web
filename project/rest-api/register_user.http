@@ -1,0 +1,12 @@
+POST https://sheva.com.ar/admin/extapi/register_user
+Content-Type: application/json
+Accept: application/json
+File-Token: GW&H$H&W)F^Q0q#F^#$)G#)G^a^)#ASF^)#)^G#G&g$L%YUL$WTRAW@D#%A)%^f)#$G^S%#L
+
+{
+   "cuit":"30596681147",
+   "company":"kiosko test",
+   "email":"kiosko1@email.com",
+   "password":"DEMO",
+   "supp_token":"AAZ321"
+}

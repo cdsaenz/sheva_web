@@ -1,0 +1,29 @@
+/**
+ * Clear settings
+ */
+
+// main colors
+$bg_color : #fff;                      // background
+$fg_color : #282B28;                   // foreground: font color
+
+// topbar & footer
+$topbar_bg_color    : #7f35d2;        // background de topbar
+$footer_bg_color    : #7f35d2;        // background de footer, usually = topbar
+
+// others
+$high_border_color  : #90323D;        // focus/hover border color
+$high_link_color    : #90323D;        // link special color
+
+$panel_border_color : #90323D;        // view/edit panel border color, USUALLY $bg_color
+$header_border_color: #BC8DA0;        // bottom border line (separator)
+$panel_title_color  : #282B28;        // h3, h4 etc, font color
+
+$button_border_color: #de17ac;        // BUTTON border color
+
+$alt_row_color      : #38a4cc;        // color of alt row in table
+
+$tab_border_color1  : #83BCA9;        // tab border color 1 & 2
+
+$carr_icon_bg_color : #282B28;        // carrousel control background color
+
+$holder_fg_color    : #822b71;        // placeholder font color

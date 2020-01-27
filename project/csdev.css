@@ -1,0 +1,416 @@
+/****
+ *  CSDEV.CSS
+ *  VERSION 5.0 4 JANUARY 2020
+ *  Non Bootstrap items
+ *  CAN OVERRIDE BOOTSTRAP IF LOADED AFTER THAT!
+ */
+/**
+ * Clear settings
+ */
+/*--------------------------------------------*/
+/* CRITICAL CHANGES
+/* CHANGES OVERALL: FORM, INPUT, PAGINATION
+/*--------------------------------------------*/
+html, body {
+  height: 100% !important;
+  padding-top: 30px !important;
+  margin: 0 !important;
+  font-family: "Nunito Sans", "Roboto", sans-serif !important;
+  /* set accordingly for dark background */
+  background-color: #fff !important;
+}
+
+/* underlined form control */
+.form-control, .form-control:focus, select.form-control:focus {
+  color: #282B28 !important;
+  background-color: #fff !important;
+  /* must agree with the background color*/
+  border: none !important;
+  border-bottom: 1px solid #282B28 !important;
+}
+
+.form-control:focus, select.form-control:focus {
+  border-bottom: 1px solid #90323D !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+/* circled page numbers */
+.pagination > li > a, .pagination > li > span {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}
+
+/**
+ * carrousel fixes
+ */
+.carousel-item img {
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+  margin: 0 auto;
+}
+
+.carousel-caption {
+  position: initial !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #282B28 !important;
+}
+
+/*--------------------------------------------*/
+/* SPECIAL PAGES STYLING/BACKGROUNDS
+/*--------------------------------------------*/
+/* MAIN SCREEN COVER STYLE */
+.bg-cover {
+  background-image: url("/csshop/admin/assets/images/bg-cover-02.webp");
+  background-size: cover;
+}
+
+/* LOGIN FORM BACKGROUND */
+/*--------------------------------------------*
+/*  SEMANTIC SPECIAL VIEW RELATED STYLES
+/*  LIST,VIEW,EDIT
+/*--------------------------------------------*/
+/**
+ *  Topbar
+ */
+.cs-topbar {
+  background-color: #7f35d2 !important;
+}
+
+/**
+ *  Footer
+ */
+.cs-footer {
+  background-color: #7f35d2 !important;
+}
+
+/**
+ * LIST RECORDS VIEW RELATED STYLES
+ * Header, filter, paginator, table, buttons, anchors
+ */
+.cs-list-header {
+  background-color: #fff !important;
+  color: #282B28 !important;
+  /* text-white */
+  border-color: #90323D !important;
+}
+
+.cs-list-filter {
+  background-color: #fff !important;
+  color: #282B28 !important;
+  border-color: #90323D !important;
+  margin-top: 3px;
+}
+
+.cs-list-paginator {
+  background-color: #fff !important;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #90323D !important;
+  margin-top: 3px;
+}
+
+.cs-list-table {
+  /* table-dark, table-striped */
+  background-color: #fff !important;
+  color: #282B28 !important;
+  border: 1px solid #90323D !important;
+  margin-top: 3px;
+}
+
+.cs-list-table > tbody > tr:nth-child(odd) > td,
+.cs-list-table > tbody > tr:nth-child(odd) > th {
+  background-color: #38a4cc;
+}
+
+/* BUTTON IN A LIST HEADER */
+.cs-list-btn {
+  /* btn-dark */
+  background-color: #fff !important;
+  color: #282B28 !important;
+  border-color: #de17ac !important;
+  /* $bg_color !important */
+}
+
+/* LINK IN A BUTTON IN A LIST HEADER */
+a.cs-list-btn, a:visited.cs-list-btn {
+  color: #282B28 !important;
+}
+
+a:hover.cs-list-btn {
+  color: #90323D !important;
+}
+
+/**
+ * EDIT RECORD VIEW RELATED STYLES
+ * Header, Tabs
+ */
+.cs-edit-header {
+  background-color: #fff !important;
+  color: #282B28 !important;
+}
+
+/**
+ * VIEW RECORD VIEW RELATED STYLES
+ * Header, Tabs
+ */
+/* HEADER PANEL IN VIEW MODE */
+.cs-view-header {
+  background-color: #fff !important;
+  color: #282B28 !important;
+  /* text-white */
+  border-bottom-color: #BC8DA0;
+}
+
+/**
+ * TABS RELATED SETTINGS: anchors colors
+ * View, Edit
+ */
+/* LINKS IN PARAGRAPH */
+.cs-view-tabs a, .cs-view-tabs a:visited,
+.cs-edit-tabs a, .cs-edit-tabs a:visited,
+.cs-edit-header p a, .cs-edit-header p a:visited,
+.cs-view-header p a, .cs-view-header p a:visited {
+  color: #90323D !important;
+}
+
+.cs-view-tabs a:hover, .cs-view-tabs a:active,
+.cs-edit-tabs a:hover, .cs-edit-tabs a:active,
+.cs-edit-header p a:hover, .cs-edit-header p a:active,
+.cs-view-header p a:hover, .cs-view-header p a:active {
+  color: #90323D !important;
+}
+
+/* tabs en general */
+.cs-view-tabs, .cs-edit-tabs {
+  color: #282B28 !important;
+  background-color: #fff !important;
+  border-color: #282B28 !important;
+  /* $bg_color !important */
+}
+
+/* tab normal, sin seleccionar*/
+.cs-view-tabs .nav-item .nav-link,
+.cs-edit-tabs .nav-item .nav-link {
+  color: #282B28 !important;
+}
+
+/* tab seleccionado */
+.cs-view-tabs .nav-item .nav-link.active,
+.cs-edit-tabs .nav-item .nav-link.active {
+  color: #90323D !important;
+  background-color: #fff !important;
+  border-color: #83BCA9 #83BCA9 #282B28 !important;
+}
+
+/**
+ * BODY of the view & edit cards
+ * View, Edit
+ */
+.cs-view-body, .cs-edit-body {
+  color: #282B28 !important;
+  background-color: #fff !important;
+  border-color: #282B28 !important;
+  /* $bg_color !important */
+}
+
+/*--------------------------------------------*
+/* BUTTONS
+/*
+/*--------------------------------------------*/
+/* SMALL BUTTON */
+.action-button4 {
+  width: 66px;
+  margin-right: 2px !important;
+  flex: none !important;
+}
+
+/* MEDIUM BUTTON */
+.action-button3 {
+  width: 120px;
+  margin-right: 2px !important;
+  flex: none !important;
+}
+
+/* BIG BUTTON */
+.action-button-big {
+  width: 160px;
+  margin-right: 2px !important;
+  flex: none !important;
+  background-color: #BF3A2F;
+  color: white;
+}
+
+/*--------------------------------------------*
+/* PLACEHOLDER
+/*
+/*--------------------------------------------*/
+.form-control::-webkit-input-placeholder, .form-control:focus::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #822b71;
+  line-height: 1.1;
+  font-size: 75%;
+}
+
+.form-control::-moz-placeholder, .form-control:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #822b71;
+  line-height: 1.1;
+  font-size: 75%;
+}
+
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #822b71;
+  line-height: 1.1;
+  font-size: 75%;
+}
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #822b71;
+  line-height: 1.1;
+  font-size: 75%;
+}
+
+/*--------------------------------------------*
+/*  SPINNER/LOADER
+/*
+/*--------------------------------------------*/
+/* https://codepen.io/MattIn4D/pen/LiKFC */
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: "";
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------*/
+/* APPLICATION SPECIFICS
+/* SEMANTICS
+/*--------------------------------------------*/
+.Inactivo {
+  background-color: red;
+  color: white;
+}
+
+.Activo {
+  background-color: green;
+  color: white;
+}
+
+/*# sourceMappingURL=csdev.css.map */

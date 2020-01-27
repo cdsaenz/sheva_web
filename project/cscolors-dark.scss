@@ -1,0 +1,29 @@
+/***
+ *  Dark settings
+ */
+
+// main colors
+$bg_color : #343a40;                 // dark
+$fg_color : #fff;                    // blanco
+
+// topbar & footer
+$topbar_bg_color    : #152F4F;        // background de topbar
+$footer_bg_color    : #152F4F;        // background de footer, usually = topbar
+
+// others
+$high_border_color  : gold;           // focus/hover border highlighted
+$high_link_color    : gold;           // link special color
+
+$panel_border_color : #606060;               // view/edit panel border color
+$header_border_color: aqua;                  // bottom border line (separator)
+$panel_title_color : lightgoldenrodyellow;  // h3, h4 etc, font color
+
+$button_border_color: #fff;           // BUTTON border color
+
+$alt_row_color      : #181818;        // color of alt row in table
+
+$tab_border_color1  : #dee2e6;        // tab border color 1 & 2
+
+$carr_icon_bg_color : black;          // carrousel control background color
+
+$holder_fg_color    : rgb(74, 172, 198);    // placeholder

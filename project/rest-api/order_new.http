@@ -1,0 +1,19 @@
+POST https://sheva.com.ar/admin/extapi/order_new
+Content-Type: application/json
+Accept: application/json
+File-Token: GW&H$H&W)F^Q0q#F^#$)G#)G^a^)#ASF^)#)^G#G&g$L%YUL$WTRAW@D#%A)%^f)#$G^S%#L
+
+{
+  "uid" : "48",
+  "supp_id" : "1",
+  "items" : [
+    {
+      "itm_id" : "8",
+      "itm_qtty" : "33"
+    },
+    {
+      "itm_id" : "7",
+      "itm_qtty" : "15"
+    }
+  ]
+}
